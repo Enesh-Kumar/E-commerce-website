@@ -1,0 +1,140 @@
+
+.cartitems{
+    margin: 70px 170px;
+   
+
+}
+
+.cartitems hr{
+  
+    height: 1.5px;
+    background: rgb(200, 198, 198);
+    border: 0;
+}
+
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 14px 6px;
+    color: #454545;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cartitems-format{
+    font-size: 11x;
+    font-weight: 500;
+}
+
+
+.carticon-product-icon{
+    
+    height: 62px;
+}
+
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+
+.cartitems-quantity {
+    all: unset;
+    width: 44px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc !important;
+    border-radius: 6px;
+    background-color: transparent !important;
+    /* color: inherit !important; */
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+  }
+
+  .cartitems-total{
+    flex: 1;
+    flex-direction: column;
+    margin-right: 235px;
+    gap: 40px;
+  }
+
+  .cartitems-total h1{
+ margin-bottom: 22px;
+ font-size: 30px;
+
+  }
+  .cartitems-total-item{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    font-size: 16px;
+    
+
+  }
+
+  .cartitems-total button{
+ 
+    width: 225px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #ed5353;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 19px;
+  }
+
+  .cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .cartitems-promocode p{
+    color: #555;
+  }
+
+  .cartitems-promo-box{
+    width: 444px;
+    margin-top: 15px;
+    padding-left: 18px;
+    background: #eaeaea;
+    height: 50px;
+    padding-top: 2px;
+    border-radius: 4px;
+    
+
+  }
+
+  .cartitems-promo-box input{
+    all: unset;
+    /* border: none; */
+    /* outline: none; */
+    background: transparent;
+    font-size: 15px;
+    width: 330px;
+    height: 20px;
+  }
+
+  .cartitems-promo-box button{
+    width: 104px;
+    height: 50px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    
+  }

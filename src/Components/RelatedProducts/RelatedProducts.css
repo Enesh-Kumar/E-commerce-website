@@ -1,0 +1,39 @@
+/* RelatedProducts.css */
+
+.Relatedproducts {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'poppins';
+    color: #333;
+    
+  }
+  
+  .Relatedproducts h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+    margin-left: 500px;
+    
+  }
+  
+  .Relatedproducts hr {
+    border: none;
+    height: 2px;
+    background-color: #cf4aa7;
+    width: 110px;
+    margin-bottom: 28px;
+    margin-left: 560px;
+
+    
+  }
+  
+  .Relatedroducts-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+  }
+  
+  
+  
